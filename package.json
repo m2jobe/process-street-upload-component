@@ -1,0 +1,37 @@
+{
+  "name": "wistia-upload-component-for-process-street",
+  "version": "1.0.0",
+  "description": "Allows for user to click upload button, pick a file, widget upload the file to wistia showing the progress bar and once video uploads an embedded wistia player is displayed",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2jobe/process-street-upload-component.git"
+  },
+  "author": "Muhammed Jobe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m2jobe/process-street-upload-component/issues"
+  },
+  "homepage": "https://github.com/m2jobe/process-street-upload-component#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-route": "^1.6.4",
+    "ejs": "^2.5.6",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "requirejs": "^2.3.3",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^2.5.1"
+  }
+}
